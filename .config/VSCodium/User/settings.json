@@ -1,0 +1,146 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "076edd8cb9a15f1fc7fd5b33be0bb6b6",
+  "workbench.iconTheme": "material-icon-theme",
+  "aws.telemetry": false,
+  "githubPullRequests.telemetry.enabled": false,
+  "update.showReleaseNotes": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "dart.checkForSdkUpdates": false,
+  "update.mode": "none",
+  "git.autofetch": true,
+  "explorer.autoReveal": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "material-icon-theme.showWelcomeMessage": false,
+  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font Mono",
+  "redhat.telemetry.enabled": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.linux": "/home/paul/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/home/paul/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/paul/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "checkForMinikubeUpgrade": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "python.venvFolders": [
+    "/home/paul/.cache/pypoetry/virtualenvs"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "pythonTestExplorer.testFramework": "pytest",
+  "editor.renderWhitespace": "all",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+  },
+  "python.testing.pytestArgs": [
+    "--no-cov"
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.coverage": true,
+    "**/.pytest_cache": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "python.formatting.provider": "black",
+  "python.experiments.enabled": false,
+  "workbench.enableExperiments": false,
+  "jupyter.experiments.enabled": false,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.largeFileOptimizations": false,
+  "python.terminal.activateEnvironment": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "sync.quietSync": true,
+  "files.associations": {
+    "*.unit": "systemd-unit-file"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.detectIndentation": false,
+    "gitlens.codeLens.scopes": [
+      "document"
+    ],
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "githubPullRequests.createOnPublishBranch": "never",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "[helm]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  "git.autoRepositoryDetection": "openEditors",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": true
+  },
+  "go.formatTool": "goformat"
+}
