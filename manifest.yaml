@@ -1,7 +1,0 @@
-home:
-    - .aws/config
-    - .config/starship.toml
-    - .config/latte/StudioP.layout.latte
-    - .config/VSCodium/User/settings.json
-    - .var/app/org.mozilla.firefox/.mozilla/firefox/studiop/overrides.js
-    

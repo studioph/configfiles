@@ -1,0 +1,8 @@
+home_folder: "{{ lookup('ansible.builtin.env', 'HOME') }}"
+repo_dir: "{{ lookup('ansible.builtin.env', 'PWD') }}"
+home_files:
+  - .aws/config
+  - .config/starship.toml
+  - .config/latte/StudioP.layout.latte
+  - .config/VSCodium/User/settings.json
+  - .var/app/org.mozilla.firefox/.mozilla/firefox/studiop/overrides.js

@@ -1,0 +1,13 @@
+- name: Install config files
+  hosts: localhost
+  connection: local
+  vars_files:
+    - vars.yml
+  tasks:
+    - name: Install config files under $HOME
+      ansible.builtin.file:
+        path: "{{ home_folder }}/{{ item }}"
+        src: "{{ repo_dir }}/{{ item }}"
+        state: link
+        force: true
+      loop: "{{ home_files }}"
