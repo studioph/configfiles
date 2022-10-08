@@ -6,3 +6,5 @@ home_files:
   - .config/latte/StudioP.layout.latte
   - .config/VSCodium/User/settings.json
   - .var/app/org.mozilla.firefox/.mozilla/firefox/studiop/overrides.js
+  - .local/share/konsole/StudioP.profile
+  - .config/konsolerc
