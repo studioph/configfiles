@@ -4,6 +4,12 @@
   vars_files:
     - vars.yml
   tasks:
+    - name: Create parent folders for config files
+      ansible.builtin.file:
+        path: "{{ home_folder }}/{{ item | dirname }}"
+        state: directory
+      loop: "{{ home_files }}"
+
     - name: Install config files under $HOME
       ansible.builtin.file:
         path: "{{ home_folder }}/{{ item }}"
