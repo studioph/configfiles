@@ -4,7 +4,7 @@
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.gist": "076edd8cb9a15f1fc7fd5b33be0bb6b6",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "eq-material-theme-icons",
   "aws.telemetry": false,
   "githubPullRequests.telemetry.enabled": false,
   "update.showReleaseNotes": false,
@@ -22,8 +22,8 @@
   "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font Mono",
   "redhat.telemetry.enabled": false,
   "vs-kubernetes": {
-    "vscode-kubernetes.helm-path.linux": "/home/paul/.vs-kubernetes/tools/helm/linux-amd64/helm",
-    "vscode-kubernetes.kubectl-path.linux": "/home/paul/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
     "vscode-kubernetes.minikube-path.linux": "/home/paul/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
     "checkForMinikubeUpgrade": false
   },
@@ -142,5 +142,19 @@
     },
     "editor.suggest.snippetsPreventQuickSuggestions": true
   },
-  "go.formatTool": "goformat"
+  "go.formatTool": "goformat",
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "aws.experiments": {
+    "CodeWhisperer": false
+  },
+  "workbench.colorTheme": "Base16 Material Dark",
+  "base16.generator.activatedThemes": [
+    "base16-default-dark",
+    "base16-materia-dark",
+    "base16-material-dark"
+  ],
+  "workbench.productIconTheme": "material-product-icons",
+  "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
+  "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm"
 }
