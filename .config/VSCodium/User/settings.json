@@ -1,99 +1,129 @@
 {
-  "window.zoomLevel": 1,
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.gist": "076edd8cb9a15f1fc7fd5b33be0bb6b6",
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "aws.telemetry": false,
-  "githubPullRequests.telemetry.enabled": false,
-  "update.showReleaseNotes": false,
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false,
-  "dart.checkForSdkUpdates": false,
-  "update.mode": "none",
-  "git.autofetch": true,
-  "explorer.autoReveal": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "material-icon-theme.showWelcomeMessage": false,
-  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font Mono",
-  "redhat.telemetry.enabled": false,
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm",
-    "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
-    "vscode-kubernetes.minikube-path.linux": "/home/paul/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-    "checkForMinikubeUpgrade": false
-  },
-  "explorer.confirmDragAndDrop": false,
-  "python.venvFolders": [
-    "/home/paul/.cache/pypoetry/virtualenvs"
-  ],
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "pythonTestExplorer.testFramework": "pytest",
-  "editor.renderWhitespace": "all",
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
-      "source.fixAll": true
-    },
-    "editor.tabSize": 4,
-    "editor.detectIndentation": false
-  },
-  "python.testing.pytestArgs": [
-    "--no-cov"
-  ],
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/.coverage": true,
-    "**/.pytest_cache": true,
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "python.formatting.provider": "black",
-  "python.experiments.enabled": false,
-  "workbench.enableExperiments": false,
-  "jupyter.experiments.enabled": false,
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true
+  },
+  "[helm]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[yaml]": {
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2,
+    "gitlens.codeLens.scopes": [
+      "document"
+    ]
+  },
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "aws.experiments": {
+    "CodeWhisperer": false
+  },
+  "aws.telemetry": false,
+  "base16.generator.activatedThemes": [
+    "base16-default-dark",
+    "base16-materia-dark",
+    "base16-material-dark"
+  ],
   "editor.largeFileOptimizations": false,
-  "python.terminal.activateEnvironment": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "sync.quietSync": true,
+  "editor.renderWhitespace": "all",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
   "files.associations": {
     "*.unit": "systemd-unit-file"
   },
-  "[yaml]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "keep",
-    "editor.detectIndentation": false,
-    "gitlens.codeLens.scopes": [
-      "document"
-    ],
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
-    },
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.coverage": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.pytest_cache": true,
+    "**/.settings": true,
+    "**/__pycache__": true
   },
+  "git.autoRepositoryDetection": "openEditors",
+  "git.autofetch": true,
   "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.telemetry.enabled": false,
+  "go.formatTool": "goformat",
+  "jupyter.experiments.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.showWelcomeMessage": false,
+  "python.experiments.enabled": false,
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.terminal.activateEnvironment": false,
+  "python.testing.pytestArgs": [
+    "--no-cov"
+  ],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.venvFolders": [
+    "/home/paul/.cache/pypoetry/virtualenvs"
+  ],
+  "pythonTestExplorer.testFramework": "pytest",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font Mono",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "update.mode": "none",
+  "update.showReleaseNotes": false,
+  "vs-kubernetes": {
+    "checkForMinikubeUpgrade": false,
+    "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/paul/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm",
+  "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Base16 Material Dark",
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.settings.enableNaturalLanguageSearch": false,
   "yaml.customTags": [
     "!And",
     "!And sequence",
@@ -122,39 +152,5 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ],
-  "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true,
-  "[helm]": {
-    "editor.detectIndentation": false,
-    "editor.tabSize": 2
-  },
-  "git.autoRepositoryDetection": "openEditors",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[go]": {
-    "editor.insertSpaces": true,
-    "editor.formatOnSave": false,
-    "editor.detectIndentation": false,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": false
-    },
-    "editor.suggest.snippetsPreventQuickSuggestions": true
-  },
-  "go.formatTool": "goformat",
-  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
-  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
-  "aws.experiments": {
-    "CodeWhisperer": false
-  },
-  "workbench.colorTheme": "Base16 Material Dark",
-  "base16.generator.activatedThemes": [
-    "base16-default-dark",
-    "base16-materia-dark",
-    "base16-material-dark"
-  ],
-  "workbench.productIconTheme": "material-product-icons",
-  "vscode-kubernetes.kubectl-path.linux": "/usr/bin/kubectl",
-  "vscode-kubernetes.helm-path.linux": "/usr/sbin/helm"
+  ]
 }
